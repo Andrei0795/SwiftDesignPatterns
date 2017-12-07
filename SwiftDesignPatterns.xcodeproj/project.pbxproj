@@ -10,6 +10,8 @@
 		222B346F1FD958F7001A0FB0 /* SingletonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222B346E1FD958F7001A0FB0 /* SingletonViewController.swift */; };
 		222B34711FD964DD001A0FB0 /* DelegationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222B34701FD964DD001A0FB0 /* DelegationViewController.swift */; };
 		222B34731FD969D5001A0FB0 /* MVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222B34721FD969D5001A0FB0 /* MVCViewController.swift */; };
+		222B34761FD99562001A0FB0 /* dogs.wav in Resources */ = {isa = PBXBuildFile; fileRef = 222B34741FD99561001A0FB0 /* dogs.wav */; };
+		222B34771FD99562001A0FB0 /* birds.wav in Resources */ = {isa = PBXBuildFile; fileRef = 222B34751FD99562001A0FB0 /* birds.wav */; };
 		229D050F1FD829FA00406F0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229D050E1FD829FA00406F0D /* AppDelegate.swift */; };
 		229D05111FD829FA00406F0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229D05101FD829FA00406F0D /* ViewController.swift */; };
 		229D05141FD829FA00406F0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 229D05121FD829FA00406F0D /* Main.storyboard */; };
@@ -44,6 +46,8 @@
 		222B346E1FD958F7001A0FB0 /* SingletonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonViewController.swift; sourceTree = "<group>"; };
 		222B34701FD964DD001A0FB0 /* DelegationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegationViewController.swift; sourceTree = "<group>"; };
 		222B34721FD969D5001A0FB0 /* MVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVCViewController.swift; sourceTree = "<group>"; };
+		222B34741FD99561001A0FB0 /* dogs.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dogs.wav; sourceTree = "<group>"; };
+		222B34751FD99562001A0FB0 /* birds.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = birds.wav; sourceTree = "<group>"; };
 		229D050B1FD829FA00406F0D /* SwiftDesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		229D050E1FD829FA00406F0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		229D05101FD829FA00406F0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -122,6 +126,8 @@
 				222B34721FD969D5001A0FB0 /* MVCViewController.swift */,
 				229D05121FD829FA00406F0D /* Main.storyboard */,
 				229D05151FD829FA00406F0D /* Assets.xcassets */,
+				222B34751FD99562001A0FB0 /* birds.wav */,
+				222B34741FD99561001A0FB0 /* dogs.wav */,
 				229D05171FD829FA00406F0D /* LaunchScreen.storyboard */,
 				229D051A1FD829FA00406F0D /* Info.plist */,
 			);
@@ -254,8 +260,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				229D05191FD829FA00406F0D /* LaunchScreen.storyboard in Resources */,
+				222B34761FD99562001A0FB0 /* dogs.wav in Resources */,
 				229D05161FD829FA00406F0D /* Assets.xcassets in Resources */,
 				229D05141FD829FA00406F0D /* Main.storyboard in Resources */,
+				222B34771FD99562001A0FB0 /* birds.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,7 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KKX2654BHQ;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SwiftDesignPatterns/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andreitudorionescu.SwiftDesignPatterns;
@@ -470,7 +478,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KKX2654BHQ;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SwiftDesignPatterns/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andreitudorionescu.SwiftDesignPatterns;
