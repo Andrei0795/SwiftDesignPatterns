@@ -21,6 +21,7 @@ class FactoryViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationItem.title = "Factory"
 
         personFelicitationsArray.append(PersonFelicitations(name: "Ema", age: 25, relationshipStatus: .Acquaintance))
         personFelicitationsArray.append(PersonFelicitations(name: "Max", age: 20, relationshipStatus: .Friend))

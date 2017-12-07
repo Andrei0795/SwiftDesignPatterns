@@ -58,7 +58,8 @@ class ExtensionsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.navigationItem.title = "Extensions"
+
         //IMAGE 1
         self.imageView.setImageFromURL(urlString: "https://upload.wikimedia.org/wikipedia/commons/f/f2/Pia%C8%9Ba_Palat%2C_Ia%C8%99i%2C_Roumanie.jpg")
         self.imageView.addGestureRecogniser(imageTag: 0)

@@ -15,6 +15,7 @@ class NotificationsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationItem.title = "Notifications"
 
         NotificationCenter.default.addObserver(self, selector: #selector(NotificationsViewController.updateNotificationLabel), name: NSNotification.Name(rawValue: notificationKey), object: nil)
     }

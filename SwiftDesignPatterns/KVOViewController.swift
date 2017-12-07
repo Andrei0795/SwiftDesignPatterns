@@ -20,6 +20,7 @@ class KVOViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationItem.title = "KVO"
         self.webView = WKWebView()
         self.view = webView
         self.webView.addObserver(self, forKeyPath: keyPathToObserve, options: .new, context: nil)
