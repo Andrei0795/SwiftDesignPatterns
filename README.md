@@ -19,4 +19,6 @@ I will further update this readme file when I have a bit more time. There are ma
 ![alt text](https://raw.githubusercontent.com/Andrei0795/SwiftDesignPatterns/master/img2.png)
 ![alt text](https://raw.githubusercontent.com/Andrei0795/SwiftDesignPatterns/master/img3.png)
 ![alt text](https://raw.githubusercontent.com/Andrei0795/SwiftDesignPatterns/master/img4.png)
+![alt text](https://raw.githubusercontent.com/Andrei0795/SwiftDesignPatterns/master/img5.png)
+![alt text](https://raw.githubusercontent.com/Andrei0795/SwiftDesignPatterns/master/img6.png)
 
