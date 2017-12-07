@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		222B346F1FD958F7001A0FB0 /* SingletonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222B346E1FD958F7001A0FB0 /* SingletonViewController.swift */; };
+		222B34711FD964DD001A0FB0 /* DelegationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222B34701FD964DD001A0FB0 /* DelegationViewController.swift */; };
+		222B34731FD969D5001A0FB0 /* MVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222B34721FD969D5001A0FB0 /* MVCViewController.swift */; };
 		229D050F1FD829FA00406F0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229D050E1FD829FA00406F0D /* AppDelegate.swift */; };
 		229D05111FD829FA00406F0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229D05101FD829FA00406F0D /* ViewController.swift */; };
 		229D05141FD829FA00406F0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 229D05121FD829FA00406F0D /* Main.storyboard */; };
@@ -40,6 +42,8 @@
 
 /* Begin PBXFileReference section */
 		222B346E1FD958F7001A0FB0 /* SingletonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonViewController.swift; sourceTree = "<group>"; };
+		222B34701FD964DD001A0FB0 /* DelegationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegationViewController.swift; sourceTree = "<group>"; };
+		222B34721FD969D5001A0FB0 /* MVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVCViewController.swift; sourceTree = "<group>"; };
 		229D050B1FD829FA00406F0D /* SwiftDesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		229D050E1FD829FA00406F0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		229D05101FD829FA00406F0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +118,8 @@
 				229D057E1FD8BDAF00406F0D /* ExtensionsViewController.swift */,
 				229D05801FD8CBDF00406F0D /* FactoryViewController.swift */,
 				222B346E1FD958F7001A0FB0 /* SingletonViewController.swift */,
+				222B34701FD964DD001A0FB0 /* DelegationViewController.swift */,
+				222B34721FD969D5001A0FB0 /* MVCViewController.swift */,
 				229D05121FD829FA00406F0D /* Main.storyboard */,
 				229D05151FD829FA00406F0D /* Assets.xcassets */,
 				229D05171FD829FA00406F0D /* LaunchScreen.storyboard */,
@@ -278,8 +284,10 @@
 				229D05111FD829FA00406F0D /* ViewController.swift in Sources */,
 				222B346F1FD958F7001A0FB0 /* SingletonViewController.swift in Sources */,
 				229D050F1FD829FA00406F0D /* AppDelegate.swift in Sources */,
+				222B34711FD964DD001A0FB0 /* DelegationViewController.swift in Sources */,
 				229D057B1FD8B3F100406F0D /* KVOViewController.swift in Sources */,
 				229D057D1FD8B70900406F0D /* NotificationsViewController.swift in Sources */,
+				222B34731FD969D5001A0FB0 /* MVCViewController.swift in Sources */,
 				229D05811FD8CBDF00406F0D /* FactoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
